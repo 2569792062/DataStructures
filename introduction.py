@@ -68,14 +68,13 @@
 
 
 def get_min():
-    n=[7,5,3,6,45,1,2]
+    n=[0,5,3,6,45,1,2]
     for i in range(0,len(n)):
         for j in range(0,len(n)):
-     
+            print(n[i],n[j)
             if n[i]<n[j]:
-                print(n[i])
-            else:
-                break
+                print(n[i],n[j])
+                n[i],n[j]=n[j],n[i]
     print(n)
     print(n[1])
 get_min()
