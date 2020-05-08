@@ -70,10 +70,17 @@
     list.pop()       O(1)
     list.append()    O(1)
     list[10]         O(1)
+
+
     for i in range(n):   O(n)
+
     k = 2 + 2   O(1)
+
     i = n
     while i > 0:   O(n)
         k = 2+2    
         i = i//2   
+'''
+'''
+   作业：验证列表索引操作是O(1),并将时间复杂度改为O(n)
 '''
